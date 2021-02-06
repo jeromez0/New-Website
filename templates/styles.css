@@ -1,0 +1,62 @@
+body {
+    background: aliceblue;
+}
+
+.NavPanel {
+    float: left;
+    width: 200px;
+    height: 2000px;
+    background: rgb(70, 13, 134);
+    margin-left: -10px;
+    margin-top: -20px;
+}   
+
+
+.NavPanel ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 0px;
+    padding: 0;
+    width: 200px;
+    background-color: rgb(70, 13, 134);
+    height: 2000px;
+    margin-top: 50px;
+}
+
+.NavPanel li {
+    display: block;
+    padding: 20px 20px;
+    color: white;
+    font-family: 'Ubuntu'
+}
+
+.NavPanel a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.mainContainer {
+    background: white;
+    width: 70%;
+    height: 100%;
+    float: left;
+    margin-top: -20px;
+    height: 2000px;
+    border-style: solid;
+}
+
+.mainContainer h2 {
+    font-size: 36px;
+    text-align: center;
+
+}
+
+.Header {
+    width: 70%;
+    height: 5%;
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
